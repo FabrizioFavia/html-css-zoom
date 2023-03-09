@@ -11,6 +11,11 @@ body{
 }
 
 .flex{display: flex;}
+.flexColumn{flex-direction: column;}
+.justifyCenter{justify-content: center;}
+.justifyEnd{justify-content: flex-end;}
+.alignCenter{align-content: center;}
+
 
 .relative{position: relative;}
 
@@ -21,6 +26,13 @@ body{
 }
 
 .width100{width: 100%;}
+
+.col20{width: 20%;}
+.col25{width: 25%;}
+.col30{width: 30%;}
+.col40{width: 40%;}
+
+.border{border: 0.5px solid white}
 
 
 /*********** HEADER  ****************/
@@ -41,10 +53,12 @@ header{
     padding: 1px;
     border-radius: 3px;
     margin-right: 6px;
+    cursor: pointer;
 }
 
 .leftContainer > img{
     width: 17%;
+    cursor: pointer;
 }
 
 .iconName{
@@ -58,6 +72,7 @@ header{
     background-color: gray;
     padding: 3px 3px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 /**********INIZIO MAIN *************/
@@ -78,15 +93,18 @@ main{
 }
 
 .box{
-    background-color: cadetblue;
+    
     width: calc(100% / 7 - 5px);
     height: 110px;
     margin-bottom: 15px;
     margin-right: 5px;  
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    background-size: cover;
 }
 
 .boxContent{
-    width: 75px;
+    width: 82px;
     height: 15%;
     background-color: rgba(0, 0, 0, 0.362);
     padding: 2px;
@@ -95,22 +113,42 @@ main{
 }
 
 .boxContent > div{
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 3px;
 }
 
 .boxContent > i{
-    font-size: 10px;
+    font-size: 11px;
 }
-
-
-
 
 /********* INIZIO FOOTER ***********/
 
 footer{
 height: 60px;
-background-color: black;
+background-color: #222222;
+}
+
+.rightFooterBox > div{
+    color: red;
+    font-size: 12px;
+    width: 20%;
+    height: 100%;
+    background-color: #4a4a4a;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.iconDescription{
+    font-size: 11px;
+}
+
+footer i{
+    font-size: 20px;
+    margin: 8px;
+}
+
+.col20{
+align-items: center;
 }
 
 
