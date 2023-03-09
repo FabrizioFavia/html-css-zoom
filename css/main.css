@@ -1,0 +1,18 @@
+/******** RESET *************/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.flex{display: flex;}
+.absolute{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/********* FINE RESET  **************/
