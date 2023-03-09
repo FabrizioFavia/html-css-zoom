@@ -16,7 +16,6 @@ body{
 .justifyEnd{justify-content: flex-end;}
 .alignCenter{align-content: center;}
 
-
 .relative{position: relative;}
 
 .absolute{
@@ -27,6 +26,9 @@ body{
 
 .width100{width: 100%;}
 
+.col5{width: 5%;}
+.col10{width: 10%;}
+.col15{width: 15%;}
 .col20{width: 20%;}
 .col25{width: 25%;}
 .col30{width: 30%;}
@@ -128,28 +130,40 @@ height: 60px;
 background-color: #222222;
 }
 
+
 .rightFooterBox > div{
     color: red;
-    font-size: 12px;
+    font-size: 10px;
     width: 20%;
     height: 100%;
     background-color: #4a4a4a;
     padding-top: 25px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .iconDescription{
-    font-size: 11px;
+    font-size: 10px;
 }
 
 footer i{
     font-size: 20px;
-    margin: 8px;
+    margin: 8px 0;
 }
 
-.col20{
-align-items: center;
+.col5, .col10, .col15, .col20, .col25{
+    align-items: center;
 }
+
+.fa-share-from-square{
+    color: #4bc800;
+}
+
+#arrow{
+    font-size: 10px;
+    padding-top: 16px;
+    
+}
+
 
 
 
